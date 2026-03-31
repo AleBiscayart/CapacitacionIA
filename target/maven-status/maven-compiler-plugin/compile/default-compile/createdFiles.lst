@@ -1,11 +1,12 @@
 com\capacitacion\ia\exception\GlobalExceptionHandler.class
-com\capacitacion\ia\exception\ProductoNotFoundException.class
 com\capacitacion\ia\service\ProductoService.class
-com\capacitacion\ia\CapacitacionIaApplication.class
 com\capacitacion\ia\dto\ProductoRequestDTO.class
+com\capacitacion\ia\repository\impl\ProductoRepositoryImpl.class
+com\capacitacion\ia\exception\ProductoNotFoundException.class
+com\capacitacion\ia\config\OpenApiConfig.class
+com\capacitacion\ia\CapacitacionIaApplication.class
 com\capacitacion\ia\dto\ProductoResponseDTO.class
 com\capacitacion\ia\model\Producto.class
 com\capacitacion\ia\repository\ProductoRepository.class
 com\capacitacion\ia\service\impl\ProductoServiceImpl.class
-com\capacitacion\ia\repository\impl\ProductoRepositoryImpl.class
 com\capacitacion\ia\controller\ProductoController.class
