@@ -1,0 +1,11 @@
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\repository\ProductoRepository.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\repository\impl\ProductoRepositoryImpl.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\dto\ProductoResponseDTO.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\controller\ProductoController.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\CapacitacionIaApplication.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\exception\GlobalExceptionHandler.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\service\ProductoService.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\dto\ProductoRequestDTO.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\service\impl\ProductoServiceImpl.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\exception\ProductoNotFoundException.java
+C:\copilot-cli\CapacitacionIA\src\main\java\com\capacitacion\ia\model\Producto.java
