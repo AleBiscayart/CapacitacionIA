@@ -1,0 +1,64 @@
+# ===========================
+# Maven
+# ===========================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ===========================
+# Java
+# ===========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+hs_err_pid*
+replay_pid*
+
+# ===========================
+# IDE - IntelliJ IDEA
+# ===========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ===========================
+# IDE - Eclipse
+# ===========================
+.classpath
+.project
+.settings/
+bin/
+
+# ===========================
+# IDE - VS Code
+# ===========================
+.vscode/
+
+# ===========================
+# OS
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+spring.log
+
