@@ -1,0 +1,11 @@
+Actua como experto en desarrollo de aplicaciones Java con springboot.
+Crea una aplicacion orientada a servicios con Java 17 y springboot version 3.x
+Esta aplicacion debe tener un CRUD de la entidad Productos y utilizar las capas convencionales de un proyecto Java + Springboot orientado a servicios.
+Por el momento la entidad Producto solo va a tener un id que es un String  y una descripcion que es un String. Para la capa de datos, no se usara una base datos en memoria, para esto crea una implementacion para la interface repository que simule una base de datos con datos mockeados. 
+Cada vez que llamo a los servicios existentes debera usarse como respuesta los datos de esta implementacion mock
+
+Con la clase ProductoController.java como contexto:
+Necesito poder probar estos servicios desde un browser, creame una interface estilo swagger para lograrlo
+
+Con el folder del proyecto como contexto:
+Necesito crear un archivo .gitignore para no subir la carpeta target al repositorio git publico
