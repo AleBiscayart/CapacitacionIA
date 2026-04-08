@@ -44,6 +44,9 @@ public class ProductoServiceImpl implements ProductoService {
     public ProductoResponseDTO createProducto(ProductoRequestDTO request) {
         Producto nuevoProducto = new Producto();
         nuevoProducto.setDescripcion(request.getDescripcion());
+        nuevoProducto.setPrecio(request.getPrecio());
+        nuevoProducto.setCantidad(request.getCantidad());
+        nuevoProducto.setCodigo(request.getCodigo());
         Producto guardado = productoRepository.save(nuevoProducto);
         return toResponseDTO(guardado);
     }
@@ -52,6 +55,9 @@ public class ProductoServiceImpl implements ProductoService {
     public ProductoResponseDTO updateProducto(String id, ProductoRequestDTO request) {
         Producto productoActualizado = new Producto();
         productoActualizado.setDescripcion(request.getDescripcion());
+        productoActualizado.setPrecio(request.getPrecio());
+        productoActualizado.setCantidad(request.getCantidad());
+        productoActualizado.setCodigo(request.getCodigo());
 
         Producto resultado = productoRepository.update(id, productoActualizado)
                 .orElseThrow(() -> new ProductoNotFoundException(id));
@@ -69,7 +75,14 @@ public class ProductoServiceImpl implements ProductoService {
     // ── Mapeo privado ───────────────────────────────────────────────────────────
 
     private ProductoResponseDTO toResponseDTO(Producto producto) {
-        return new ProductoResponseDTO(producto.getId(), producto.getDescripcion());
+        return new ProductoResponseDTO(
+                producto.getId(),
+                producto.getDescripcion(),
+                producto.getPrecio(),
+                producto.getCantidad(),
+                producto.getCodigo()
+        );
     }
+
 }
 

@@ -4,6 +4,7 @@ import com.capacitacion.ia.model.Producto;
 import com.capacitacion.ia.repository.ProductoRepository;
 import org.springframework.stereotype.Repository;
 
+import java.math.BigDecimal;
 import java.util.*;
 
 /**
@@ -19,11 +20,12 @@ public class ProductoRepositoryImpl implements ProductoRepository {
 
     public ProductoRepositoryImpl() {
         // Datos mockeados precargados
-        baseDeDatos.put("PROD-001", new Producto("PROD-001", "Laptop Dell XPS 15"));
-        baseDeDatos.put("PROD-002", new Producto("PROD-002", "Monitor Samsung 27 pulgadas"));
-        baseDeDatos.put("PROD-003", new Producto("PROD-003", "Teclado mecánico Logitech MX Keys"));
-        baseDeDatos.put("PROD-004", new Producto("PROD-004", "Mouse inalámbrico Microsoft Arc"));
-        baseDeDatos.put("PROD-005", new Producto("PROD-005", "Auriculares Sony WH-1000XM5"));
+        baseDeDatos.put("PROD-001", new Producto("PROD-001", "Laptop Dell XPS 15",          new BigDecimal("1299.99"), 10L, "LAP-DELL-XPS15"));
+        baseDeDatos.put("PROD-002", new Producto("PROD-002", "Monitor Samsung 27 pulgadas",  new BigDecimal("349.99"),  25L, "MON-SAM-27"));
+        baseDeDatos.put("PROD-003", new Producto("PROD-003", "Teclado mecánico Logitech MX Keys", new BigDecimal("99.99"), 50L, "TEC-LOG-MXKEYS"));
+        baseDeDatos.put("PROD-004", new Producto("PROD-004", "Mouse inalámbrico Microsoft Arc", new BigDecimal("79.99"), 40L, "MOU-MS-ARC"));
+        baseDeDatos.put("PROD-005", new Producto("PROD-005", "Auriculares Sony WH-1000XM5", new BigDecimal("279.99"), 15L, "AUR-SONY-WH5"));
+        baseDeDatos.put("PROD-006", new Producto("PROD-006", "Impresora HP Envy 6055",       new BigDecimal("149.99"), 8L,  "IMP-HP-ENVY6055"));
     }
 
     @Override

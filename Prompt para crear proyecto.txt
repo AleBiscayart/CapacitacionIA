@@ -9,3 +9,8 @@ Necesito poder probar estos servicios desde un browser, creame una interface est
 
 Con el folder del proyecto como contexto:
 Necesito crear un archivo .gitignore para no subir la carpeta target al repositorio git publico
+
+
+@project Actua como desarrollador de aplicaciones Java con Springboot senior.
+Agregale a la entidad Producto las siguientes propiedades: precio de tipo BigDecimal, cantidad de tipo Long, codigo de tipo String.
+Agregale a toda la aplicacion, lo necesario para utilizar las nuevas propiedades. Tanto al model como a los dto
